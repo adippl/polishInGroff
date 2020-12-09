@@ -1,0 +1,8 @@
+groff macros for polish characters in postrscript and pdf
+I've found these macros quite some time ago and I don't remember who made them and I'm not sure how exactly they work.
+(probaly some ps specific positioning of accents, their aligning is not ideal)
+
+testMacro.roff is an example how to use them. 
+When using groff with -Kutf8 groff should auto replace missing characters with polish characters created by macros. 
+test.sh should compile example file to out.pdf. 
+You can check if macros are working by comparing out.pdf to screenshot in example.png

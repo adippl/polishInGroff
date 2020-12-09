@@ -1,0 +1,43 @@
+.\" -*- nroff -*-
+.\" vim: ft=groff
+.\"
+.mso latin2.tmac
+.de acc*over-def
+.ds \\$1 \Z'\v'(u;\w'x'*0+\En[rst]-\En[.cht])'\
+\h'(u;-\En[skw]+(-\En[.w]-\w'\\$2'/2)+\En[.csk])'\\$2'
+..
+.de acc*under-def
+.ds \\$1 \Z'\v'\En[.cdp]u'\h'(u;-\En[.w]-\w'\\$2'/2)'\\$2'
+..
+.acc*over-def ' \'
+.acc*over-def dot \[a.]
+.char \[ogon] \h'0.5m'\[ho]
+.acc*under-def og \[ogon]
+.char \[A,] A\*[og]
+.char \[a,] a\*[og]
+.char \[E,] E\*[og]
+.char \[e,] e\*[og]
+.char \[N'] N\*'
+.char \[n'] n\*'
+.char \[S'] S\*'
+.char \[s'] s\*'
+.char \[O'] O\*'
+.char \[o'] o\*'
+.char \[Z.] Z\*[dot]
+.char \[z.] z\*[dot]
+.char \[Z'] Z\*'
+.char \[z'] z\*'
+
+
+.trin \[u0105]\[a,]
+.trin \[u0041_0328]\[A,]
+.trin \[u0119]\[e,]
+.trin \[u0045_0328]\[E,]
+.trin \[u015B]\[s']
+.trin \[u0053_0301]\[S']
+.trin \[u0144]\[n']
+.trin \[u004E_0301]\[N']
+.trin \[u017A]\[z']
+.trin \[u005A_0301]\[Z']
+.trin \[u017C]\[z.]
+.trin \[u005A_0307]\[Z.]
