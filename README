@@ -1,5 +1,6 @@
 groff macros for polish characters in postrscript and pdf
-I've found these macros quite some time ago and I don't remember who made them and I'm not sure how exactly they work.
+I've found these macros quite some time ago and I don't remember who made them.
+I'm also not sure how they work.
 (probaly some ps specific positioning of accents, their aligning is not ideal)
 
 testMacro.roff is an example how to use them. 
